@@ -1,4 +1,4 @@
-# Test in Meteor's mongo package.
+# Test Meteor's 2.0+ mongo package.
 
 The last [Grapher](https://github.com/cult-of-coders/grapher) doesn't handle correcly `linkMany.add()` and `linkMany.remove()`. 
 It raises an exception of an unused modifier `$set` while only `$addToSet` or `$pullAll` have being been used !
